@@ -8,18 +8,22 @@
 </head>
 <body>
    
-    <button id="btn-clk" onclick="myFunction('Li', 'rubel')"> click </button>
-    <button id="btn-clk" onclick="myFunction('Li', 'hasn')"> click </button>
-    <button id="btn-clk" onclick="myFunction('Li', 'jahid')"> click </button>
-    <button id="btn-clk" onclick="myFunction('Li', 'rifi')"> click </button>
-    <button id="btn-clk" onclick="myFunction('Li', 'rahi')"> click </button>
-    <button id="btn-clk" onclick="myFunction('Li', 'jahid')"> click </button>
+    <button class="btn-click1" id="click1" onclick="myFunction('Li', 'rubel', '.btn-click1')"> click </button>
+    <button class="btn-click2" id="click2" onclick="myFunction('Li', 'hasn', '.btn-click2')"> click </button>
+    <button class="btn-click3" id="click3" onclick="myFunction('Li', 'jahid', '.btn-click3')"> click </button>
+    <button class="btn-click4" id="click4" onclick="myFunction('Li', 'rifi', '.btn-click4')"> click </button>
+    <button class="btn-click5" id="click5" onclick="myFunction('Li', 'rahi', '.btn-click5')"> click </button>
+    <button class="btn-click6" id="click6" onclick="myFunction('Li', 'jahid', '.btn-click6')"> click </button>
 
     <div class="main">
         <ol id="myList">
             
         </ol>
     </div>
+    PlayerNumber:<input type="text" id="playerNumber"><br>
+    PlayerNumber:<input type="text" id="perPlayerCost"><br>
+    <button id="calc">Calculate</button>
+    <input type="text" id="result">
 
     <script src="index.js"></script>
 </body>
